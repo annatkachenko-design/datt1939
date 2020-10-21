@@ -1,0 +1,770 @@
+body {
+  font-family: Helvetica;
+  position: relative;
+  background-color: #e7d5c8
+}
+
+
+.unseen {
+  position: absolute;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 200px;
+  color: #6f2b13;
+  z-index: 1;
+}
+
+.statement a {
+  position: absolute;
+  text-decoration: none;
+  display: block;
+  font-style: italic;
+  width: 100%;
+  top: 430px;
+  text-align: center;
+  font-size: 40px;
+  color: #ac4e2b;
+  z-index: 2;
+
+}
+
+.one {
+  position: absolute;
+  font-size: 20px;
+  top: 150px;
+  left: 1000px;
+  z-index: 2;
+  margin: 5px;
+  color: #f6e5d9;
+  opacity: 50%;
+}
+
+.two {
+  position: absolute;
+  font-size: 20px;
+  top: 100px;
+  left: 300px;
+  z-index: 2;
+  margin: 5px;
+  color: #f6e5d9;
+  opacity: 50%;
+}
+
+.three  a{
+
+  text-decoration: none;
+  color: #f6e5d9;
+  opacity: 50%;
+}
+
+
+.three {
+  position: absolute;
+  font-size: 20px;
+  top: 700px;
+  left: 150px;
+  z-index: 2;
+  margin: 5px;
+
+}
+
+.four {
+  position: absolute;
+  font-size: 20px;
+  top: 600px;
+  left: 700px;
+  z-index: 2;
+  margin: 5px;
+  color: #f6e5d9;
+  opacity: 50%;
+}
+
+.five {
+  position: absolute;
+  font-size: 20px;
+  top: 400px;
+  left: 100px;
+  z-index: 2;
+  margin: 5px;
+  color: #f6e5d9;
+  opacity: 50%;
+}
+
+.six {
+  position: absolute;
+  font-size: 20px;
+  top: 10px;
+  left: 100px;
+  z-index: 2;
+  margin: 5px;
+  color: #f6e5d9;
+  opacity: 50%;
+}
+
+.seven {
+  position: absolute;
+  font-size: 20px;
+  top: 550px;
+  left: 250px;
+  z-index: 2;
+  margin: 5px;
+  color: #f6e5d9;
+  opacity: 50%;
+}
+
+
+.eight a {
+  text-decoration: none;
+  color: #f6e5d9;
+  opacity: 50%;
+}
+.eight {
+  position: absolute;
+  font-size: 20px;
+  top: 470px;
+  left: 1050px;
+  z-index: 2;
+  margin: 5px;
+}
+
+.nine {
+  position: absolute;
+  font-size: 20px;
+  top: 700px;
+  left: 1000px;
+  z-index: 2;
+  margin: 5px;
+  color: #f6e5d9;
+  opacity: 50%;
+}
+
+
+.ten a {
+  text-decoration: none;
+  color: #f6e5d9;
+  opacity: 50%;
+}
+
+.ten {
+  position: absolute;
+  font-size: 20px;
+  left: 900px;
+  z-index: 2;
+  margin: 5px;
+}
+
+.one:hover > p {
+  color: #6f2b13;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.two:hover > p {
+  color: #6f2b13;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+
+.four:hover > p {
+  color: #6f2b13;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+
+.five:hover > p {
+  color: #6f2b13;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.six:hover > p {
+  color: #6f2b13;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.seven:hover > p {
+  color: #6f2b13;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.nine:hover > p {
+  color: #6f2b13;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+
+/*index.html ends here*/
+
+
+.page1 {
+  background-image: url(images/Room1.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+
+}
+
+.girlone img {
+     width: 500px;
+     margin: 0px;
+     padding: 0px;
+     z-index: 1;
+}
+
+.girlone {
+  position: absolute;
+  left: 90px;
+  top: 150px;
+  z-index: 1;
+
+}
+
+
+.girlthree img {
+  width: 500px;
+  padding-bottom: 0px;
+  z-index: 1;
+}
+
+.girlthree {
+  position: absolute;
+  left: 600px;
+  top: 1200px;
+  z-index: 1;
+}
+
+
+.girltwo img {
+  width: 500px;
+  margin: 0px;
+  padding: 0px;
+  z-index: 1;
+
+
+}
+
+.girltwo {
+  position: fixed;
+  left: 380px;
+  top: 150px;
+  margin: 0px;
+  padding: 0px;
+  z-index: 1;
+}
+
+.window img {
+  width: 500px;
+  position: fixed;
+  top: 0px;
+  left: 50px;
+  z-index: 0;
+}
+
+
+/*page1.html images ends here*/
+
+
+.speechone {
+  position: absolute;
+  top: 300px;
+  left:0px;
+  width: 150px;
+  height: 80px;
+  background-color: #e6d4c6;
+  padding: 50px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-right: 20px;
+  margin: 50px;
+  border: 2px solid #c3765f;
+  z-index: 2;
+  font-size: 13px;
+  color: #c3765f;
+
+}
+
+.speechtwo{
+  position: absolute;
+  background-color: #e6d4c6;
+  top: 300px;
+  left:0px;
+  width: 150px;
+	height: 80px;
+  padding: 50px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-right: 20px;
+  margin: 50px;
+  border: 2px solid #c3765f;
+  z-index: 1;
+  font-size: 13px;
+  color: #c3765f;
+}
+
+.speechone:hover {
+  display: none;
+}
+
+
+
+.speechthree {
+  position: absolute;
+  top: 300px;
+  left:710px;
+  width: 150px;
+  height: 80px;
+  padding: 50px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-right: 20px;
+  margin: 50px;
+  z-index: 2;
+  font-size: 13px;
+  background-color: #e6d4c6;
+  color: #c3765f;
+  border: 2px solid #c3765f;
+}
+
+
+.speechfour {
+  position: absolute;
+  top: 300px;
+  left:710px;
+  width: 150px;
+  height: 80px;
+  padding: 50px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-right: 20px;
+  margin: 50px;
+  z-index: 1;
+  font-size: 13px;
+  color: #c3765f;
+  border: 2px solid #c3765f;
+  background-color: #e6d4c6;
+
+}
+
+.speechthree:hover {
+  display: none;
+}
+
+
+.speechfive {
+  position: absolute;
+  top: 1400px;
+  left:250px;
+  width: 150px;
+  height: 80px;
+  background-color: #e6d4c6;
+  padding: 50px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-right: 20px;
+  margin: 50px;
+  border: 2px solid #c3765f;
+  z-index: 2;
+  font-size: 13px;
+  color: #c3765f;
+}
+
+
+.speechsix {
+  position: absolute;
+  top: 1400px;
+  left:250px;
+  width: 150px;
+  height: 80px;
+  background-color: #e6d4c6;
+  padding: 50px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-right: 20px;
+  margin: 50px;
+  border: 2px solid #c3765f;
+  z-index: 1;
+  font-size: 13px;
+  color: #c3765f;
+}
+
+.speechfive:hover {
+  display: none;
+}
+
+.speechseven {
+  position: absolute;
+  top: 1400px;
+  left:1000px;
+  width: 150px;
+  height: 80px;
+  background-color: #e6d4c6;
+  padding: 50px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-right: 20px;
+  margin: 50px;
+  border: 2px solid #c3765f;
+  z-index: 3;
+  font-size: 13px;
+  color: #c3765f;
+}
+
+
+.speecheight {
+  position: absolute;
+  top: 1400px;
+  left:1000px;
+  width: 150px;
+  height: 80px;
+  background-color: #e6d4c6;
+  padding: 50px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-right: 20px;
+  margin: 50px;
+  border: 2px solid #c3765f;
+  z-index: 2;
+  font-size: 13px;
+  color: #c3765f;
+}
+
+.speechseven:hover {
+  display: none;
+}
+
+
+/*page1.html ends and page2.html starts*/
+
+
+.computer img {
+ max-width: 100%;
+ max-height: 100%;
+ vertical-align: bottom;
+ bottom: 0px;
+
+}
+
+
+.bubblesone img {
+  position: absolute;
+  max-width: 50%;
+  max-height: 50%;
+  top: 800px;
+}
+
+.bubblestwo img {
+  position: absolute;
+  max-width: 50%;
+  max-height: 50%;
+  top: 500px;
+  right: 0px;
+}
+
+.bubblesthree img {
+  position: absolute;
+  max-width: 45%;
+  max-height: 45%;
+  top: 0px;
+  left: 0px;
+}
+
+
+.cloudone img {
+  position: absolute;
+  max-width: 50%;
+  max-height: 50%;
+  top: 0px;
+  left: 0px;
+  opacity: 50%;
+}
+
+.cloudtwo img {
+  position: absolute;
+  max-width: 40%;
+  max-height: 40%;
+  top: 400px;
+  left: 850px;
+  opacity: 50%;
+}
+
+.cloudthree img {
+  position: absolute;
+  max-width: 15%;
+  max-height: 15%;
+  left: 100px;
+  top: 700px;
+  opacity: 50%;
+}
+
+.cloudfour img {
+  position: absolute;
+  max-width: 50%;
+  max-height: 50%;
+  left: 200px;
+  top: 900px;
+  opacity: 50%;
+}
+
+.cloudfive img {
+  position: absolute;
+  max-width: 20%;
+  max-height: 20%;
+  left: 850px;
+  top: 170px;
+  opacity: 50%;
+
+}
+
+.fbone {
+    position: absolute;
+    top: 80px;
+    left: 700px;
+    color: #e7d5c8;
+    font-size: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+
+.fbone:hover {
+    color: #deb296;
+    font-size: 40px;
+}
+
+.fbtwo {
+  position: absolute;
+  top: 700px;
+  left: 300px;
+  color: #e7d5c8;
+  font-weight: bolder;
+  font-size: 40px;
+
+}
+
+.fbtwo:hover {
+    color: #deb296;
+    font-size: 40px;
+}
+
+.fbthree {
+  position: absolute;
+  top: 1100px;
+  left: 930px;
+  color: #e7d5c8;
+  font-size: 40px;
+  font-weight: bolder;
+
+}
+
+.fbthree:hover {
+    color: #6e2b14;
+    font-size: 40px;
+}
+
+
+
+.text {
+  position: absolute;
+  top: 1170px;
+  left: 930px;
+  color: #e7d5c8;
+  font-size: 20px;
+  font-weight: bolder;
+
+}
+
+.text:hover {
+    color: #6e2b14;
+    font-size: 20px;
+}
+/* page 3 starts*/
+
+.page3 {
+  background-image: url(images/background.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+
+
+.ladytwo img {
+  width: 250px;
+}
+
+.ladytwo {
+  position: absolute;
+  left: 370px;
+  top: 300px;
+}
+
+.ladythree img {
+  width: 250px;
+}
+
+.ladythree {
+  position: absolute;
+  left: 760px;
+  top: 200px;
+}
+
+.ladyfour img {
+  width: 250px;
+}
+
+.ladyfour {
+  position: absolute;
+  left: 1180px;
+  top: 340px;
+}
+
+
+.textone {
+  position: absolute;
+  top: 230px;
+  left: 980px;
+  color: #e7d5c8;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.textone:hover {
+  color: #6e2b14;
+  font-size: 20px;
+}
+
+
+.texttwo {
+  position: absolute;
+  width: 150px;
+	height: 80px;
+  top: 350px;
+  left:950px;
+  padding: 50px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-right: 20px;
+  margin: 50px;
+  z-index: 2;
+  font-size: 13px;
+  background-color: #c3765f;
+  color: #e6d4c6 ;
+  border: 2px solid #c3765f;
+
+}
+
+.textthree{
+  position: absolute;
+  width: 150px;
+  height: 80px;
+  top: 350px;
+  left: 950px;
+  padding: 50px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-right: 20px;
+  margin: 50px;
+  z-index: 1;
+  font-size: 13px;
+  background-color: #c3765f;
+  color: #e6d4c6 ;
+  border: 2px solid #c3765f;
+
+}
+
+
+.texttwo:hover {
+  display: none;
+}
+
+
+.textfour {
+  position: absolute;
+  width: 150px;
+	height: 80px;
+  top: 180px;
+  left:200px;
+  padding: 50px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-right: 20px;
+  margin: 50px;
+  z-index: 2;
+  font-size: 13px;
+  background-color: #c3765f;
+  color: #e6d4c6 ;
+  border: 2px solid #c3765f;
+
+}
+
+
+.textfive {
+  position: absolute;
+  width: 150px;
+  height: 80px;
+  top: 180px;
+  left: 200px;
+  padding: 50px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-right: 20px;
+  margin: 50px;
+  z-index: 1;
+  font-size: 13px;
+  background-color: #c3765f;
+  color: #e6d4c6 ;
+  border: 2px solid #c3765f;
+
+}
+
+
+.textfour:hover {
+  display: none;
+}
+
+/* statement.html starts here*/
+
+.statement2 {
+  position: relative;
+  width: 1200px;
+  height: 400px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #6e2b14;
+  top: 400px;
+  font-size: 20px;
+
+}
+
+.ast {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  color: #6e2b14;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  width: 400px;
+  height: 50px;
+}
+
+.unseen2  a {
+text-decoration: none;
+color: #6f2b13;
+}
+
+.unseen2 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 200px;
+  color: #6f2b13;
+  z-index: 1;
+  top: 200px;
+}
